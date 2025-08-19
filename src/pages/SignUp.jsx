@@ -19,7 +19,7 @@ function SignUp() {
   return (
     <>
       <div className='flex items-center justify-center'>
-        <div className='w-[100vw] h-screen px-5 py-7 pb-10 md:w-100 xl:border-1 xl:border-gray-300 flex flex-col gap-5 bg-[#F7F8F9]'>
+        <div className='w-[100vw] h-screen px-5 py-7 pb-20 md:pb-10  md:w-100 xl:border-1 xl:border-gray-300 flex flex-col gap-5 bg-[#F7F8F9]'>
           <h1 className='text-3xl font-bold'>Create your <br/> PopX account</h1>
           <form action="" id="signUpForm" className='flex flex-col gap-1' onSubmit={() => handleSubmit(event)} >
             <div className='flex flex-col'>

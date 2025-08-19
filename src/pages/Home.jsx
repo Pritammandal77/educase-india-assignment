@@ -5,7 +5,7 @@ function Home() {
     return (
         <>
             <div className='flex items-center justify-center '>
-                <div className='w-[100vw] xl:w-90 h-screen px-5 pb-10 md:w-100 xl:border-1 xl:border-gray-300 flex flex-col gap-[10px] justify-end bg-[#F7F8F9]'>
+                <div className='w-[100vw] xl:w-90 h-screen px-5 pb-20 md:pb-10 md:w-100 xl:border-1 xl:border-gray-300 flex flex-col gap-[10px] justify-end bg-[#F7F8F9]'>
                     <h1 className='text-3xl font-bold'>Welcome to PopX</h1>
                     <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti cupiditate placeat</p>
                     <NavLink to='/signup' className="mt-5">
