@@ -21,7 +21,8 @@ function SignUp() {
       <div className='flex items-center justify-center'>
         <div className='w-[100vw] h-screen px-5 py-7 pb-20 md:pb-10  md:w-100 xl:border-1 xl:border-gray-300 flex flex-col gap-5 bg-[#F7F8F9]'>
           <h1 className='text-3xl font-bold'>Create your <br/> PopX account</h1>
-          <form action="" id="signUpForm" className='flex flex-col gap-1' onSubmit={() => handleSubmit(event)} >
+          <form action="" id="signUpForm" className='flex flex-col gap-1' onSubmit={() => handleSubmit(e)} >
+
             <div className='flex flex-col'>
               <label className='text-[#7330FF] bg-white w-fit relative top-3 left-2 px-1'>Full Name
                 <span className='text-red-500'>*</span>
@@ -31,12 +32,14 @@ function SignUp() {
                 onChange={(e) => setUserName(e.target.value)}
               />
             </div>
+
             <div className='flex flex-col'>
               <label className='text-[#7330FF] bg-white w-fit relative top-3 left-2 px-1 '>Phone number
                 <span className='text-red-500'>*</span>
               </label>
               <input type="number" className='border-1 border-gray-400 px-3 py-2 rounded bg-white' placeholder='Enter mobile number' required />
             </div>
+
             <div className='flex flex-col'>
               <label className='text-[#7330FF] bg-white w-fit relative top-3 left-2 px-1'>Email address
                 <span className='text-red-500'>*</span>
@@ -46,16 +49,19 @@ function SignUp() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}/>
             </div>
+
             <div className='flex flex-col'>
               <label className='text-[#7330FF] bg-white w-fit relative top-3 left-2 px-1'>Password
                 <span className='text-red-500'>*</span>
               </label>
               <input type="password" className='border-1 border-gray-400 px-3 py-2 rounded bg-white' placeholder='Enter password' required/>
             </div>
+
             <div className='flex flex-col'>
               <label className='text-[#7330FF] bg-white w-fit relative top-3 left-2 px-1'>Company name</label>
               <input type="text" className='border-1 border-gray-400 px-3 py-2 rounded bg-white' placeholder='Enter your company name' required />
             </div>
+
             <div className='flex flex-col'>
               <div className='flex p-1'>
                 <p>Are you an agency?</p><span className='text-red-500'>*</span>
@@ -71,6 +77,7 @@ function SignUp() {
                 </label>
               </div>
             </div>
+            
           </form>
           <div className='w-full self-end mt-auto'>
           <button type='submit' form="signUpForm" className='w-full bg-[#6C25FF] text-white  text-l font-semibold py-3 rounded-[10px] border-none bold cursor-pointer'>Create Account</button>

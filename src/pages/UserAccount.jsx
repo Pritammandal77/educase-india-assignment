@@ -13,7 +13,9 @@ function UserAccount() {
         <>
             <div className='flex items-center justify-center'>
                 <div className='w-[100vw] h-screen bg-[#f3f3f3] md:w-100 xl:border-1 xl:border-gray-300 flex flex-col '>
+                    
                     <h1 className='text-[22px] md:text-xl text-gray-600 p-5 bg-white font-semibold'>Account Settings</h1>
+                    
                     <div className='px-5 py-7 flex flex-col gap-6'>
                         <div className='flex gap-5'>
                             <div className=' flex max-h-15 items-center cursor-pointer'>
@@ -28,6 +30,7 @@ function UserAccount() {
                         </div>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, enim vitae iusto dolorem recusandae dolore provident id ipsum</p>
                     </div>
+                    
                     <div className=' h-full flex flex-col justify-between'>
                         <hr className=" border-gray-400 border-dashed " />
                         <hr className='border-gray-400 border-dashed mb-10' />
